@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - `prometheusConfig.scrapeJobs` is added to allow more granular control of scrape jobs.
+- Resource consumption is reduced by limiting ingestion of unneeded metrics and metric labels
 
 ### Fixed
 - `prometheusConfig.configOverride` only replaces the scrape_configs in the Prometheus configuration.
